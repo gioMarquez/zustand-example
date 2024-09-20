@@ -11,8 +11,6 @@ const App = () => {
   
   const { count , increment } = useStore();
 
-
-
   return (
    <div>
     <span>{count}</span>
